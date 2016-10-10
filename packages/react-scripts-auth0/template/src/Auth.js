@@ -1,23 +1,21 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Auth from './Auth';
 
-class App extends Component {
+class Auth extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welcome to React Auth0 Component</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          You will be editing this file to get started with the React Auth0 Component
         </p>
-        <Auth />
       </div>
     );
   }
 }
 
-export default App;
+export default Auth;
